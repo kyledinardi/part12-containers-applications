@@ -1,0 +1,26 @@
+Script started on 2025-06-17 13:35:38-04:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="146" LINES="76"]
+[?2004h]0;kyled@KylesPC: ~/repos/part12-containers-applications/script-answers[01;32mkyled@KylesPC[00m:[01;34m~/repos/part12-containers-applications/script-answers[00m$ exitscriptdocker container run -it ubuntu bashexit[Kdocker container run -it ubuntu bash
+[?2004lUnable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+Digest: sha256:b59d21599a2b151e23eea5f6602f4af4d7d31c4e236d22bf0b62b86d2e386b8f
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@fece7739035f: /root@fece7739035f:/# ls
+[?2004l[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;36mlib[0m  [01;36mlib64[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+[?2004h]0;root@fece7739035f: /root@fece7739035f:/# cd usr/s  /
+[?2004l[?2004h]0;root@fece7739035f: /usrroot@fece7739035f:/usr# ls
+[?2004l[0m[01;34mbin[0m  [01;34mgames[0m  [01;34minclude[0m  [01;34mlib[0m  [01;34mlib64[0m  [01;34mlibexec[0m  [01;34mlocal[0m  [01;34msbin[0m  [01;34mshare[0m  [01;34msrc[0m
+[?2004h]0;root@fece7739035f: /usrroot@fece7739035f:/usr# mkdir       mkdir src/ 
+[?2004lmkdir: cannot create directory 'src': File exists
+[?2004h]0;root@fece7739035f: /usrroot@fece7739035f:/usr# l cs d src
+[?2004l[?2004h]0;root@fece7739035f: /usr/srcroot@fece7739035f:/usr/src# ls
+[?2004l[?2004h]0;root@fece7739035f: /usr/srcroot@fece7739035f:/usr/src# mkdir app
+[?2004l[?2004h]0;root@fece7739035f: /usr/srcroot@fece7739035f:/usr/src# cd app/
+[?2004l[?2004h]0;root@fece7739035f: /usr/src/approot@fece7739035f:/usr/src/app# touch index.js
+[?2004l[?2004h]0;root@fece7739035f: /usr/src/approot@fece7739035f:/usr/src/app# ls
+[?2004lindex.js
+[?2004h]0;root@fece7739035f: /usr/src/approot@fece7739035f:/usr/src/app# exit
+[?2004lexit
+[?2004h]0;kyled@KylesPC: ~/repos/part12-containers-applications/script-answers[01;32mkyled@KylesPC[00m:[01;34m~/repos/part12-containers-applications/script-answers[00m$ exit
+[?2004lexit
+
+Script done on 2025-06-17 13:36:58-04:00 [COMMAND_EXIT_CODE="0"]
